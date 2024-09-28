@@ -1,0 +1,208 @@
+@font-face {
+    font-family: 'english_font1';
+    src: url('../fonts/SoDoSans-Bold.61c2ffb.woff2');
+}
+
+@font-face {
+    font-family: 'english_font2';
+    src: url('../fonts/SoDoSans-Regular.01edf55.woff2');
+}
+
+body{
+    overflow-x: hidden;
+}
+
+main{
+    background-color: #f7f7f7;
+
+}
+
+#header_nav_list li a{
+    font-family: 'english_font1';
+    font-size: 14px;
+    font-weight: bolder;
+    transition: 0.5s;
+}
+
+#header_nav_list li a:hover{
+    color: rgb(1, 126, 1);
+}
+
+
+#join_btn{
+    width: 115px;
+    margin-right: 100px;
+}
+
+#signin_btn{
+    width: 100px;
+}
+
+#signin_btn:hover{
+    background-color: rgba(233, 233, 233, 0.352);
+}
+
+.find_store{
+    width: 170px;
+}
+
+.find_store{
+    font-size:14px;
+}
+
+.find_store i{
+    font-size:20px;
+    margin-right:7px
+}
+
+.find_store:hover{
+    color: rgb(111, 111, 111);
+    cursor: pointer;
+}
+
+#starbucks_img2{
+    margin-left: 580px;
+    width: 940px;
+}
+
+#pumpkin_title{
+    font-weight: 400;
+    font-size: 28px;
+}
+
+#pumpkin_part{
+    margin-left: 650px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#btn1{
+    left: 120px;
+    top: 560px;
+    background-color: rgba(0, 0, 0, 0.16);
+    font-size: 14px;
+    transition: 0.5s;
+}
+
+#btn1:hover{
+    background-color: rgba(255, 255, 255, 0.208);
+}
+
+#btn2{
+    left: 120px;
+    top: 610px;
+    background-color: rgba(0, 0, 0, 0.16);
+    font-size: 14px;
+    transition: 0.5s;
+}
+
+#btn2:hover{
+    background-color: rgba(255, 255, 255, 0.208);
+}
+
+#order_btn{
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+#order_btn2{
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+#order_btn3{
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+#order_btn:hover{
+    background-color:rgba(157, 238, 157, 0.46) !important;
+}
+
+#order_btn2:hover{
+    background-color:rgba(157, 238, 157, 0.46) !important;
+}
+
+#order_btn3:hover{
+    background-color:rgba(157, 238, 157, 0.46) !important;
+}
+
+.deliver_title{
+    margin-left: 70px;
+}
+
+.deliver_title h4{
+    font-family: 'english_font1';
+    font-size: 20px;
+}
+
+.deliver_title p{
+    font-size: 13px;
+    font-family: 'english_font2';
+}
+
+.find_out_more_btn:hover{
+    background-color:rgba(157, 238, 157, 0.46) !important;
+    transition: 0.5s;
+}
+
+.card_font_size{
+    font-size: 14px;
+}
+
+
+.footer_accordings{
+    margin-left: 583px;
+}
+
+#about_us_list{
+    list-style-type: none;
+    font-size:14px;
+    font-weight: 500;
+}
+
+#about_us_list li:hover{
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.careers_text{
+    font-size:14px;
+    font-weight: 500;
+}
+
+.careers_text:hover{
+    color: black !important;
+    cursor: pointer;
+}
+
+.footer_icons{
+    margin-left: 45px;
+}
+
+.footer_icons i{
+    font-size:38px;
+    margin-left:10px;
+}
+
+.footer_icons i:hover{
+    cursor: pointer;
+}
+
+.footer_list{
+    list-style-type: none;
+    font-size:14px;
+    font-weight: 500;
+    margin-bottom: 170px;
+}
+
+.footer_list a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.footer_list a:hover{
+    color: #6c757d;
+}

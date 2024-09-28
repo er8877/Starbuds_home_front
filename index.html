@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks</title>
+
+    <link rel="icon" type="img/x-icon" href="./assets/icon.png">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/my_styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <script  src="js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    
+    <!-- header -->
+    <header>
+
+        <nav class="navbar navbar-expand-lg bg-body-white pb-3 shadow-sm">
+            <div class="container-fluid ms-3 mt-2">
+              <a class="navbar-brand" href="#">
+                <img src="./assets/starbucks_logo.png" width="57px" alt="starbucks">
+              </a>
+              <div class="collapse navbar-collapse mt-0" id="navbarNav">
+                <ul class="navbar-nav ms-3" id="header_nav_list">
+                  <li class="nav-item me-2">
+                    <a class="nav-link" aria-current="page" href="#">MENU</a>
+                  </li>
+                  <li class="nav-item me-2">
+                    <a class="nav-link" href="#">NUTRITION</a>
+                  </li>
+                  <li class="nav-item me-2">
+                    <a class="nav-link" href="#">DELIVERS</a>
+                  </li>
+                  <li class="nav-item me-2">
+                    <a class="nav-link" href="#">REWARDS</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="find_store me-3">
+                <i class="fas fa-map-marker-alt"></i>
+
+                <span class="text-center fw-bold">
+                    Find a store
+                </span>
+            </div>
+
+            <button type="button" class="btn btn-white border border-dark text-centerd rounded-4 py-1 me-3 hover-overlay" 
+            id="signin_btn">
+                Sign in
+            </button>
+
+            <button type="button" class="btn btn-dark rounded-4 py-1" id="join_btn">
+                Join now
+            </button>
+        </nav>
+
+    </header>
+    <!-- end header -->
+
+    <!-- main -->
+    <main>
+
+        <div class="position-fixed">
+            <img src="https://www.starbucks.co.uk/sites/starbucks-uk/files/styles/c01_vertical_card_724x1009/public/2024-08/3415%20UK%20AUT%20Web%20banners%20-%20Side%20Banner_724x1009px_v01%20-%20Option%2001.jpg.webp?itok=zCJqGlvo" width="580" height="800" alt="starbucks2" id="starbucks_img1">
+
+            <button type="button" class="text-white rounded-5 position-absolute border border-white px-3 py-1 fw-bold" id="btn1">
+                Find out more about Starbucks® Rewards
+            </button>
+            <button type="button" class="text-white rounded-5 position-absolute border border-white px-3 py-1 fw-bold" id="btn2">
+                Download the Starbucks® UK App
+            </button>
+        </div>
+
+        <img src="https://www.starbucks.co.uk/sites/starbucks-uk/files/styles/c02_horizontal_card_1335x534/public/2024-08/1012%20EMEA%20Autumn%2024%20Website%20Homepage%20Hero%20Banner_1335x534px_v05%20-%20Option%2002.jpg.webp?itok=4-t9SVk3" alt="starbucks2" id="starbucks_img2">
+
+
+        <div id="pumpkin_part" class="text-secondary mt-4">
+            <h2 class="text-dark mb-4" id="pumpkin_title">Pumpkin Spice has entered the chat</h2>
+
+            It's back! Iced? Cold brew? Chai? Do Pumpkin Spice your way. <br>
+
+            <button type="button" class="bg-light text-success border border-success mt-4 rounded-4 px-3 py-1" id="order_btn">
+                Order now
+            </button>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-3 mt-5" style="margin-left: 650px;">
+                <img src="./assets/product_1.jpg" class="float-start" width="390px" alt="product1">
+            </div>
+
+            <div class="col mt-5 deliver_title">
+                <h4>Starbucks® Delivers</h4>
+                <p class="text-secondary" style="margin-top: 80px;">Pumpkin Spice it up and get your favourite Autumn <br> drink delivered straight to your door. Order with <br> Uber Eats, Just Eat or Deliveroo.</p>
+                <button type="button" class="bg-light text-success border border-success mt-5 rounded-4 px-3 py-1" id="order_btn2">
+                    Order now
+                </button>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-3 mt-5" style="margin-left: 650px;">
+                <img src="./assets/product_2.jpg" class="float-start" width="390px" alt="product1">
+            </div>
+
+            <div class="col mt-5 deliver_title">
+                <h4>Introducing Oleato™</h4>
+                <p class="text-secondary" style="margin-top: 20px;">Starbucks® coffee infused with Partanna extra <br> virgin olive oil creates a velvety smooth, deliciously <br> lush experience. <br><br> <br>It's your coffee ritual uplifted.  </p>
+                <button type="button" class="bg-light text-success border border-success mt-2 rounded-4 px-3 py-1" id="order_btn3">
+                    Find out more
+                </button>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-2 g-4 mt-5" style="margin-left: 635px;">
+            <div class="col" style="width: 410px;">
+              <div class="card shadow-sm rounded-0">
+                <img src="./assets/about_us_pic.jpg" class="card-img-top rounded-0" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">About Us</h5>
+                  <p class="card-text text-secondary card_font_size">Find out more about our company and heritage.</p>
+                  <button type="button" class="bg-white text-success border border-success mt-2 rounded-4 px-3 py-1 fw-bold find_out_more_btn"
+                  style="font-size: 14px;">
+                    Find out more
+                </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col" style="width: 410px;">
+              <div class="card shadow-sm rounded-0">
+                <img src="./assets/stories.jpg" class="card-img-top rounded-0" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Starbucks Stories</h5>
+                  <p class="card-text text-secondary card_font_size">Keep up to date with our latest stories and news.</p>
+                  <button type="button" class="bg-white text-success border border-success mt-2 rounded-4 px-3 py-1 fw-bold find_out_more_btn"
+                  style="font-size: 14px;">
+                    Find out more
+                </button>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="" style="background-color: #f7f7f7;height:30px"></div>
+
+    </main>
+    <!-- end main -->
+
+
+    <!-- footer -->
+    <footer>
+        
+        <div class="accordion accordion-flush footer_accordings" id="accordionFlushExample">
+            <div class="accordion-item border-bottom border-white">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fs-4 ps-5 m-2 pe-5" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  About us
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <ul class="text-secondary ms-1" id="about_us_list">
+                        <li class="mb-5">About us</li>
+                        <li class="mb-5">Starbucks for the Record</li>
+                        <li class="mb-5">Our Coffees</li>
+                        <li class="mb-5">Starbucks Stories & News</li>
+                        <li class="mb-5">Starbucks® Ready to Drink</li>
+                        <li class="mb-5">Foodservice Coffee</li>
+                        <li class="mb-5">Customer Service</li>
+                        <li>Tax Strategy 2023</li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item border-bottom border-white">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fs-4 ps-5 m-2 pe-5" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Careers
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body ps-5">
+                    <p class="text-secondary ms-2 careers_text">
+                    Search Careers
+                    </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item border-bottom border-white">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fs-4 ps-5 m-2 pe-5" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Social Impact
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body ps-5">
+                    <p class="text-secondary ms-2 careers_text mb-5">Responsibility</p>
+                    <p class="text-secondary ms-2 careers_text">COVID-19</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item border-bottom border-white">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fs-4 ps-5 m-2 pe-5" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Starbuks Card
+                </button>
+              </h2>
+              <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body ps-5">
+                    <p class="text-secondary ms-2 careers_text mb-4">Starbucks Card</p>
+                    <p class="text-secondary ms-2 careers_text">Starbucks Card Terms & Conditions</p>
+                </div>
+              </div>
+            </div>
+
+            <hr class="text-dark ms-2">
+
+            <div class="mt-5 footer_icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-pinterest"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter-square"></i>
+            </div>
+
+            <div class="ms-4">
+                <ul class="footer_list">
+                    <li class="mt-5"><a href="">Contact Us</a></li>
+                    <li class="mt-4"><a href="">Privacy Policy</a></li>
+                    <li class="mt-4"><a href="">Terms of Use</a></li>
+                    <li class="mt-4"><a href="">Cookie Consent</a></li>
+                    <li class="mt-4"><a href="">Cookie Notice</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </footer>
+    <!-- end footer -->
+
+</body>
+</html>
